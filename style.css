@@ -22,3 +22,12 @@ body {
   min-width: 100%;
   min-height: 100%;
 }
+section {
+  margin-bottom: 25px;
+}
+section h2 {
+  text-align: center;
+  line-height: 1;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccf;
+}
