@@ -33,6 +33,29 @@ body {
   min-width: 100%;
   min-height: 100%;
 }
+#intro .content {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 5;
+  color: #fff;
+}
+#intro .content h1 {
+  margin: 20px 0;
+  font-size: 4.5em;
+  font-weight: 300;
+}
+#intro .content h2 {
+  padding: 0;
+  border: none;
+}
+#intro .content h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
 section {
   margin-bottom: 25px;
 }
