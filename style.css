@@ -56,6 +56,29 @@ body {
   font-size: 1.5em;
   font-weight: 300;
 }
+#intro .content .socials {
+  padding: 35px 0;
+}
+#intro .content .socials a {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 1.25;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin: 0 10px;
+  transition: all 0.15s linear;
+  transform: scale(1);
+}
+#intro .content .socials a:hover {
+  color: #ccf;
+  border: 1px solid #ccf;
+  transform: scale(1.5);
+}
 section {
   margin-bottom: 25px;
 }
