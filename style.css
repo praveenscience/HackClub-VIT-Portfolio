@@ -1,10 +1,15 @@
 html,
 body {
   height: 100%;
+  background-color:bisque;
 }
 body,
 input {
   font-family: "Montserrat";
+}
+p{
+  font-style:italic;
+  color: darkslategrey;
 }
 #intro {
 
@@ -33,8 +38,9 @@ input {
 }
 #intro img.photo{
   position: relative;
-  height:25%;
-  width:10px;
+  max-width: 50%;
+  min-width: 10px;
+  min-height: auto;
 }
 #intro .content {
   text-align: center;
