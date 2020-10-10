@@ -35,3 +35,20 @@ h1 {
 .slide-container .slides .hidden {
   display: none;
 }
+.slide-container .pager {
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+.slide-container .pager li {
+  margin: 15px 5px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  padding: 5px;
+}
+.slide-container .pager li.active {
+  background-color: #000;
+}
