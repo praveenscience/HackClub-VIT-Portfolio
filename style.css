@@ -1,12 +1,18 @@
 html,
 body {
   height: 100%;
+  background-color:bisque;
 }
 body,
 input {
   font-family: "Montserrat";
 }
+p{
+  font-style:italic;
+  color: darkslategrey;
+}
 #intro {
+
   position: relative;
   height: 100%;
   overflow: hidden;
@@ -29,6 +35,12 @@ input {
   transform: translateX(-50%);
   min-width: 100%;
   min-height: 100%;
+}
+#intro img.photo{
+  position: relative;
+  max-width: 50%;
+  min-width: 10px;
+  min-height: auto;
 }
 #intro .content {
   text-align: center;
