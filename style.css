@@ -85,3 +85,30 @@ section h2 {
   padding-bottom: 10px;
   border-bottom: 2px solid #ccf;
 }
+.go-down {
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+}
+.go-down .mouse {
+  display: inline-block;
+  width: 30px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+.go-down .mouse::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 1px;
+  height: 1px;
+  border: 4px solid #fff;
+  left: 50%;
+  margin-left: -4px;
+  top: 10px;
+}
