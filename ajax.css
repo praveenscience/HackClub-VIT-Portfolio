@@ -1,0 +1,56 @@
+* {
+  font-family: "Open Sans";
+  font-weight: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 10pt;
+  line-height: 1;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 2em;
+  background-color: #333;
+  border-bottom: 2px solid #000;
+  color: #fff;
+  font-weight: 300;
+  margin: 0 0 15px;
+}
+strong {
+  font-weight: 600;
+}
+form {
+  max-width: 300px;
+  text-align: center;
+  margin: 10px auto;
+}
+form input {
+  padding: 5px;
+  border-radius: 5px;
+}
+form .form-control {
+  margin-bottom: 10px;
+}
+form .form-control input {
+  border: 1px solid #ccc;
+}
+form .form-action input {
+  border: 2px solid #99f;
+  cursor: pointer;
+  background-color: #eef;
+  font-weight: 600;
+}
+form .form-action input:hover {
+  background-color: #99f;
+  color: #fff;
+}
+form .response {
+  margin: 15px;
+  border: 2px solid #99f;
+  background-color: #eef;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
