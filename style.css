@@ -112,3 +112,12 @@ section h2 {
   margin-left: -4px;
   top: 10px;
 }
+
+.parallax {
+  height: 100%;
+  background-image: url("./banner.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
