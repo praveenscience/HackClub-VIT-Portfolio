@@ -10,7 +10,13 @@ input {
   position: relative;
   height: 100%;
   overflow: hidden;
-  z-index: 1;
+  z-index: 1;  
+  height: 100%;
+  background-image: url("./banner.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #intro::after {
   content: "";
@@ -111,13 +117,4 @@ section h2 {
   left: 50%;
   margin-left: -4px;
   top: 10px;
-}
-
-.parallax {
-  height: 100%;
-  background-image: url("./banner.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
