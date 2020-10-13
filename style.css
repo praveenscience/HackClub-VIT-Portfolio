@@ -52,6 +52,10 @@ p{
   z-index: 5;
   color: #fff;
 }
+.bg {
+   border-radius:25%;
+  color: teal;
+  }
 #intro .content h1 {
   margin: 20px 0;
   font-size: 4.5em;
@@ -84,8 +88,8 @@ p{
   transform: scale(1);
 }
 #intro .content .socials a:hover {
-  color: #ccf;
-  border: 1px solid #ccf;
+  color: cyan;
+  border: 1px solid cyan;
   transform: scale(1.5);
 }
 section {
@@ -96,4 +100,7 @@ section h2 {
   line-height: 1;
   padding-bottom: 10px;
   border-bottom: 2px solid #ccf;
+}
+p {
+  font-style: italic;
 }
