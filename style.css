@@ -254,8 +254,7 @@ section h2 {
 #send {
   background-color: #0078d0;
   border: 0;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px 0 18px;
   border-radius: 20px;
   color: #fff;
   cursor: pointer;
